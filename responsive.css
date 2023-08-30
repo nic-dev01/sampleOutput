@@ -365,14 +365,14 @@ input[type="search"] {
 .snoman img {
     width: 200px;
     position: relative;
-    bottom: -30px;
+    bottom: 70px;
 }
 
 #ball {
     width: 140px;
     position: relative;
     right: -8rem;
-    top: -7rem;
+    top: -13rem;
 }
 
 .snoman {
@@ -385,7 +385,7 @@ input[type="search"] {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 32.5rem;
+    top: 21.5rem;
 }
 
 .bout p {
