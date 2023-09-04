@@ -2,58 +2,60 @@
     .boxes {
         position: relative;
         right: 2rem;
-        top: 6rem;
+        top: 2rem;
     }
     .boxes img {
-        width: 480px;
+        width: 400px;
     }
     .pic-2 {
         position: relative;
-        bottom: 12rem;
+        bottom: 10rem;
     }
 
     .pic-2 img {
-        width: 550px !important;
+        width: 413px !important;
     }
 
     .bout p{
-        font-size :  24px
+        font-size :  20px
     }
 .l-more {
-    right: 18.5rem;
+    right: 295px;
 }
 
 .product {
-    top: 26.5rem;
+    top: 12.5rem;
 }
 
 img#popular {
     width: 580px;
 }
 
-
 .snoman img {
     width: 220px;
     position: relative;
-    bottom: -125px;
-}
+    bottom: 40px;
+    }
 
 .snoman {
     position: absolute;
-    left: 8rem;
+    left: 6rem;
 }
 
 #ball {
     width: 155px;
     position: relative;
     right: 4rem;
-    top: 13rem;
-}
+    top: 40px;
+    }
 
 .shopclik p {
     color: #fff;
     font-size: 25px;
 }
+
+
+
 }
 
 
