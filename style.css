@@ -31,6 +31,9 @@
    
 }
 
+.navsbar a:hover{
+    color: rgb(110, 23, 23);
+}
 
 .spark img{
     width: 300px;
@@ -224,3 +227,7 @@
 }
 
 
+#wed {
+    width: 180px;
+    margin-left: 40px;
+}   
