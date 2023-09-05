@@ -27,9 +27,6 @@
     top: 12.5rem;
 }
 
-img#popular {
-    width: 580px;
-}
 
 .snoman img {
     width: 220px;
@@ -51,14 +48,39 @@ img#popular {
 
 .shopclik p {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.find {
+    position: relative;
+    left: 5rem;
+    top: 10px;
+}
+
+input[type="search"] {
+    font-size: 20px;
+    width: 190px;
+    height: 30px;
 }
 
 
-
+#s-icon {
+    color: #fff;
+    position: relative;
+    left: 60px;
+    top: 10px;
 }
 
+.popular img {
+    width: 550px;
+}
 
+.spark img {
+    width: 350px;
+}
+}
+
+/* ==================================================================================================================================================== */
 @media (min-width:1441px){
     .serch{
     left: 430px;
@@ -110,109 +132,8 @@ img#popular {
     }
 }
 
-@media (max-width:320px) {
-    .navsbar {
-        /* position: relative; */
-        top: 1px;
-        left: 1px;
-        cursor: pointer !important;
-        font-size: 5px !important;
-        margin-top: 10px;
-    }
-
-    .navsbar a {
-        font-family: sans-serif;
-        padding-left: 5px;
-        color: #ffff;
-        font-size: 7px;
-        text-decoration: none;
-        cursor: pointer !important;
-    }
-
-    .spark img {
-        width: 220px;
-    }
-
-
-    .spark {
-        text-align: center;
-        position: relative;
-        top: 2rem;
-    }
-
-
-    input[type="search"] {
-        font-size: 10px;
-        width: 70px;
-        position: relative;
-        bottom: 20px;
-
-      
-    }
-
-    .serch {
-        display: flex;
-        justify-content: center;
-    }
-.shopclik p{
-        font-size: 12px;
-        position: relative;
-        bottom: 57px;
-    
-}
-
-.snoman {
-    position: absolute;
-    left: 3.5rem;
-    top: 500px;
-}
-
-img#popular {
-    width: 281px;
-}
-
-.product {
-    position: relative;
-    top: 15.5rem;
-}
-
-.bout p {
-    text-align: left;
-    position: relative;
-    top: 11rem;
-    left: 2rem;
-    padding-right: 0;
-}
-
-
-.boxes img {
-    width: 240px;
-}
-
-.pic-2 img {
-    width: 255px !important;
-}
-
-.boxes {
-    position: relative;
-    right: 11rem;
-    top: 38rem;
-}
-
-.pic-2 {
-    position: relative;
-    bottom: 6rem;
-    right: 29px;
-}
-
-.boxes {
-    position: relative;
-    right: 11rem;
-    top: 56rem;
-}
-}
 /* =================================================================================================================== */
-@media (max-width:480px){
+@media (min-width:320px) and (max-width:490px){
     .navsbar {
         position: relative;
         top: 0.5rem;
@@ -238,12 +159,12 @@ img#popular {
     .shopclik {
         text-align: center;
         position: relative;
-        top: 0rem;
+        top: 1.5rem;
     }
 
     .shopclik p {
         color: #fff;
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .shopclik img{
@@ -252,26 +173,27 @@ img#popular {
     }
 
     #ball {
-        width: 115px;
+        width: 99px;
         position: relative;
-        right: 4rem;
-        top: 1rem;
+        right: -6rem;
+        top: -10rem;
     }
 
+
     .snoman img {
-        width: 160px;
+        width: 125px;
         position: relative;
         bottom: 30px;
     }
 
     .snoman {
         position: absolute;
-        left: 7rem;
+        left: 107px;
         top: 28rem;
     }
 
    .product img {
-        width: 340px;
+        width: 325px;
     }
 
 
@@ -279,43 +201,78 @@ img#popular {
         display: flex;
         justify-content: center;
         position: relative;
-        top: 20.5rem;
+        top: 23.5rem;
     }
 
     .bout p {
         text-align: left;
         position: relative;
-        top: 8rem;
+        top: 5rem;
         left: 2rem;
         padding-right: 0;
+        font-size: 11px;
     }
 
     .boxes {
         position: relative;
-        right: 17rem;
+        right: 10rem;
         top: 35rem;
     }
 
-    
+    #icon {
+        padding: 5px;
+    }
+
+    .serch {
+        position: relative;
+        bottom: 8.5rem;
+        left: 36px;
+    }
+
+    .bout img {
+        position: relative;
+        top: 5rem;
+        left: 47px;
+    }
+
+    .l-more {
+        right: -23px;
+    position: relative;
+    top: 190px !important;
+}
+    #more {
+        width: 135px !important;
+    }
+
+    .boxes img {
+        width: 270px;
+    }
+    .pic-2 img {
+        width: 295px !important;
+    }
+
+    .pic-2 {
+        position: relative;
+        bottom: 7rem;
+    }
 }
 
 /* ============================================================================================================================= */
 
 @media (max-width:600px) {
     .navsbar a {
-        font-family: sans-serif;
-        padding-left: 5px;
-        color: #ffff;
-        font-size: 10px;
-        text-decoration: none;
-        cursor: pointer !important;
-    }
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: #ffff;
+    font-size: 11px;
+    text-decoration: none;
+}
 
     .navsbar {
         position: relative;
         top: 1.5rem;
         left: 1rem;
-        cursor: pointer !important;
+        z-index: 1;
     }
 
     .spark {
@@ -326,22 +283,13 @@ img#popular {
 
 
 
-    .find {
-        position: relative;
-        left: 3rem;
-        top: 0rem;
-    }
     
     .serch {
         position: relative;
         bottom: 7.5rem;
-        left: 55px;
-    }
+        left: 120px;
+    }   
 
-input[type="search"] {
-    font-size: 10px;
-    width: 75px;
-}
 
 #s-icon {
     color: #fff;
@@ -363,25 +311,23 @@ input[type="search"] {
      bottom: 10px;
 }
 
-
 .snoman img {
-    width: 200px;
+    width: 140px;
     position: relative;
-    bottom: 70px;
+    bottom: -50px;
 }
 
 #ball {
-    width: 140px;
+    width: 100px;
     position: relative;
-    right: -8rem;
-    top: -13rem;
+    right: 2rem;
+    top: 6rem;
 }
 
 .snoman {
     position: absolute;
     left: 6rem;
 }
-
 
 .product {
     display: flex;
@@ -393,24 +339,25 @@ input[type="search"] {
 .bout p {
     text-align: left;
     position: relative;
-    top: 11rem;
+    top: 7rem;
     left: 2rem;
     padding-right: 0;
     font-size: 12px;
 }
 
+
 .boxes {
     position: relative;
-    right: 10rem;
-    top: 46rem;
+    right: 0rem;
+    top: 7rem;
 }
 
 .pic-2 img {
-    width: 289px !important;
+    width: 290px !important;
 }
 
 .boxes img {
-    width: 300px;
+    width: 265px;
 }
 
 
@@ -428,10 +375,16 @@ input[type="search"] {
 
 .l-more {
     position: relative;
-    top: 13rem !important;
+    top: 14rem !important;
     display: flex;
-    right: -1.5rem;
+    right: 1.5rem;
 }
+
+input[type="search"] {
+    width: 115px;
+   
+}
+
 }
 
 
