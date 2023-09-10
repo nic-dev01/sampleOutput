@@ -556,7 +556,7 @@ input[type="search"] {
 
 /* ============================================================================================================= */
 
-@media (max-width: 400px) {
+@media (max-width: 370px) {
 
     .navsbar {
         position: relative;
@@ -669,8 +669,8 @@ input[type="search"] {
 
     #ball {
         position: relative;
-        right: -7rem;
-        top: -7rem;
+        right: 2rem;
+        top: 3rem;
         width: 115px;
     }
 
