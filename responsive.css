@@ -556,8 +556,13 @@ input[type="search"] {
 
 /* ============================================================================================================= */
 
-@media (max-width: 368px) {
+@media (max-width: 400px) {
 
+    .navsbar {
+        position: relative;
+        top: 20px;
+        left: 1rem;
+    }
     .navsbar a {
         font-family: sans-serif;
         padding-left: 0px;
@@ -639,7 +644,7 @@ input[type="search"] {
     .boxes {
         position: relative;
         right: 0rem;
-        top: 12rem;
+        top: 10rem;
     }
 
     .bout img {
@@ -655,4 +660,23 @@ input[type="search"] {
         bottom: -2rem;
     }
     
+
+    .snoman img {
+        width: 145px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    #ball {
+        position: relative;
+        right: -7rem;
+        top: -7rem;
+        width: 115px;
+    }
+
+    #icon {
+        left: 3rem;
+        top: -4px;
+
+    }
 }
